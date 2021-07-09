@@ -20,10 +20,8 @@
 
 title: Productive student
 email: blog@triotka.com
-description: productive student of computer science learning programming and dealing with struggles as imposter syndrome
-and anxiety.
+description: productive student of computer science learning programming and dealing with struggles as imposter syndrome and anxiety.
 # this means to ignore newlines until "baseurl:"
-  
 baseurl: "ga_blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
