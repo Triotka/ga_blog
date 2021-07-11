@@ -29,10 +29,12 @@ github_username:  jekyll
 atom_feed:
   hide: true
 
+
 # Build settings
 #theme: minima
 remote_theme: "mmistakes/minimal-mistakes@4.23.0"
 minimal_mistakes_skin: "dark"
+teaser: /assets/images/red.jpg
 plugins:
   - jekyll-feed
   - jekyll-include-cache
