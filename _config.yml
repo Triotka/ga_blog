@@ -18,14 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Productive student
+title: Triotka Student
 email: blog@triotka.com
-description: productive student of computer science learning programming and dealing with struggles as imposter syndrome and anxiety.
+description: productive student of computer science and learning programming and android development. Using psychology to improve and deal with struggles such as imposter syndrome and anxiety.
 # this means to ignore newlines until "baseurl:"
 baseurl: "ga_blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+atom_feed:
+  hide: true
 
 # Build settings
 #theme: minima
