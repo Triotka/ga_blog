@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Triotka Student
+title: Triotka
 email: blog@triotka.com
 description: productive student of computer science and learning programming and android development. Using psychology to improve and deal with struggles such as imposter syndrome and anxiety.
 # this means to ignore newlines until "baseurl:"
@@ -32,6 +32,7 @@ atom_feed:
 # Build settings
 #theme: minima
 remote_theme: "mmistakes/minimal-mistakes@4.23.0"
+minimal_mistakes_skin: contrast
 plugins:
   - jekyll-feed
   - jekyll-include-cache
