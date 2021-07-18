@@ -22,19 +22,39 @@ title: Triotka
 email: blog@triotka.com
 description: productive student of computer science and learning programming and android development. Using psychology to improve and deal with struggles such as imposter syndrome and anxiety.
 # this means to ignore newlines until "baseurl:"
-baseurl: "ga_blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 atom_feed:
   hide: true
 
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      tagline: ""
+      layout: single
+      author_profile: true
+      related: true
+      show_date: true
 
+  
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+  
 # Build settings
 #theme: minima
 remote_theme: "mmistakes/minimal-mistakes@4.23.0"
 minimal_mistakes_skin: "dark"
-teaser: /assets/images/red.jpg
 plugins:
   - jekyll-feed
   - jekyll-include-cache
@@ -58,3 +78,21 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+# Site Author
+author:
+  name                   : "Triotka"
+  avatar                 : False
+  bio                    : Student of two majors Computer Science and Bioinformatics
+  location               : Czech Rwepublic
+  email                  : True
+  url                    : False
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Triotka"
+include: 
+    - _pages
+    - .htaccess
+
