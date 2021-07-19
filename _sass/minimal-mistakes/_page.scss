@@ -35,26 +35,28 @@ body {
   flex: 1 0 auto;
 }
 
+@media only screen and (min-width: 600px) {
+  .page {
+    margin-left: 300px;
+  }
+}
+
 .page {
   @include breakpoint($large) {
      width: calc(100% - #{$right-sidebar-width-narrow});
-    width: 100%;
-    padding-right: $right-sidebar-width-narrow;
+    // padding-right: $right-sidebar-width-narrow;
   }
 
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
-    width: 100%;
-    padding-right: $right-sidebar-width;
+    // padding-right: $right-sidebar-width;
   }
 
   .page__inner-wrap {
-    width: 100%;
     .page__content,
     .page__meta,
     .page__share {
       position: relative;
-      width: 100%;
      
     }
   }
